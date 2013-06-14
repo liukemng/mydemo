@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.example_android_demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/ExampleTheme" >
+        <activity
+            android:name="com.example.example_android_demo.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>         
+        </activity>
+        <activity
+            android:name="com.example.example_android_demo.MainActivity"
+            android:label="@string/title_activity_main"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.example.example_android_demo.MessageListActivity"
+            android:label="@string/title_activity_message_list"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:theme="@style/ExampleTheme" >          
+        </activity>
+        <activity
+            android:name="com.example.example_android_demo.MessageDetailActivity"
+            android:label="@string/title_activity_message_detail"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+        </activity>
+        <activity android:name="com.example.example_android_demo.TestSMActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">example_android_demo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg_list_tile">信息列表</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_message_list">MessageListActivity</string>
+    <string name="title_activity_message_detail">MessageDetailActivity</string>
+    <string name="refreshandload_footer_loading">加载中&#8230;</string>
+    <string name="refreshandload_header_refershing">刷新中&#8230;</string>
+    <string name="refreshandload_header_date">最后更新于：</string>
+    <string name="refreshandload_footer_readyload">点击或上拉加载</string>
+    <string name="refreshandload_header_pulltorefresh">下拉刷新信息</string>
+    <string name="refreshandload_header_releasetorefresh">释放立即刷新</string>
+    <string name="imageview_attribute"></string>
+    <string name="menu_item_attribute"></string>
+
+</resources>
